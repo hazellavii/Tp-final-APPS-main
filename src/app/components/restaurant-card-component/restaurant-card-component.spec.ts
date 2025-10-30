@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SearchPage } from './search-page';
+import { RestaurantCardComponent } from './restaurant-card-component';
 
-describe('SearchPage', () => {
-  let component: SearchPage;
-  let fixture: ComponentFixture<SearchPage>;
+describe('RestaurantCardComponent', () => {
+  let component: RestaurantCardComponent;
+  let fixture: ComponentFixture<RestaurantCardComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SearchPage]
+      imports: [RestaurantCardComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SearchPage);
+    fixture = TestBed.createComponent(RestaurantCardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
